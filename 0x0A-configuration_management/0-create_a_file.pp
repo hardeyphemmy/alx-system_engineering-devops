@@ -1,3 +1,5 @@
+#!/usr/bin/env puppet
+
 file {'/tmp/school':
   ensure  => 'file',      # Ensure is a file
   mode    => '0744',      # File permission
