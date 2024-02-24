@@ -1,6 +1,6 @@
 #!/usr/bin/evr puppet
 
- package { 'Flask':
+  package  {'Flask':
   ensure   => 'latest',
   provider => 'pip3',
 }
