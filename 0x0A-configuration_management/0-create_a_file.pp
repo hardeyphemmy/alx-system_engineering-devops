@@ -1,5 +1,5 @@
+# Puppet script is about creating a file.
 #!/usr/bin/env puppet
-# Puppet is about creating a file.
 
 file {'/tmp/school':
   ensure  => 'file',      # Ensure is a file
